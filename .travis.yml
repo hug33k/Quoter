@@ -1,0 +1,17 @@
+language: python
+
+python:
+  - '2.7'
+  - '3.5'
+
+services:
+  - docker
+
+before_install:
+  - docker build -t hug33k/quoter
+
+after_success:
+  - if [ "$TRAVIS_BRANCH" == "master" ]; then
+    docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASSWORD";
+    docker push hug33k/quoter;
+    fi
