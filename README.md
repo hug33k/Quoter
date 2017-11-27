@@ -42,12 +42,12 @@ services:
 
   quoter:
     container_name: Quoter
-	image: hug33k/quoter
-	ports:
-	 - YOUR_PORT:80
-	volumes:
-	 - /path/to/my/quotes:/app/quotes
-	restart: always
+    image: hug33k/quoter
+    ports:
+     - YOUR_PORT:80
+    volumes:
+     - /path/to/my/quotes:/app/quotes
+    restart: always
 	
 ````
 
