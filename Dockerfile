@@ -15,7 +15,7 @@ VOLUME ["/app/quotes"]
 
 COPY   . /app/
 
-RUN    pip install -r /work/requirements.txt
+RUN    pip install -r /app/requirements.txt
 
 WORKDIR	   /app
 
