@@ -47,8 +47,7 @@ services:
      - YOUR_PORT:80
     volumes:
      - /path/to/my/quotes:/app/quotes
-    restart: always
-	
+    restart: always	
 ````
 
 If you don't have or hate Docker : 
