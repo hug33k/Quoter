@@ -1,5 +1,8 @@
 # Quoter
 
+[![Build Status](https://travis-ci.org/hug33k/Quoter.svg?branch=master)](https://travis-ci.org/hug33k/Quoter)
+[![](https://images.microbadger.com/badges/version/hug33k/quoter.svg)](https://microbadger.com/images/hug33k/quoter) [![](https://images.microbadger.com/badges/image/hug33k/quoter.svg)](https://microbadger.com/images/hug33k/quoter)
+
 ![](misc/logo.png)
 
 > What did you just said ?
