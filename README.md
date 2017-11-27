@@ -18,7 +18,7 @@ Make friends, tell nonsense and take note of what made you laugh.
 $> mkdir quotes
 $> cd quotes/
 $> mkdir random_topic
-$> cd rando_topic
+$> cd random_topic
 $> echo "Insert quote here" > myfirstquote.quote
 ````
 
