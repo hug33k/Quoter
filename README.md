@@ -5,7 +5,7 @@
 
 ![](misc/logo.png)
 
-> What did you just said ?
+> What did you just say ?
 
 A Slack integration to show quotes
 
