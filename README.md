@@ -59,7 +59,7 @@ If you don't have or hate Docker :
 $> export QUOTER_PORT=YOUR_PORT
 $> git clone git@github.com:hug33k/Quoter.git
 $> cd Quoter/
-$> pip install -r requitements.txt
+$> pip install -r requirements.txt
 $> python server.py
 ````
 
